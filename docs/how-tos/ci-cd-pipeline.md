@@ -12,7 +12,7 @@ This guide will walk through the steps to set-up and create a CI/CD pipeline for
 1. On the GitHub repo, create a new branch from 'master' called 'develop'
 2. Go to Settings > Branches, select 'develop' from the drop down list to make it the default branch, click update
 3. Under 'Branch protection rules', click 'Add rule'
-4. Add 'master' for 'Branch name pattern', check 'Restrict who can push to matching branches' and save.
+4. Add 'master' for 'Branch name pattern', check 'Restrict who can push to matching branches' and save.`
 5. Add new branch protection rule for 'develop', with the following settings:
     - Require pull request reviews before merging
     - Require status checks to pass before merging

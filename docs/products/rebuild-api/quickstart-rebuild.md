@@ -1,8 +1,8 @@
 ---
 title: Quickstart - Rebuild
-id: rebuild-quickstart
 sidebar_label: Quickstart
 ---
+
 
 <p>
 This page can be used as a guide to getting started using the Rebuild API. It describes getting the product key and executing a request to the API.

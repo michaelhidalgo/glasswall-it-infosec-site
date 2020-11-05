@@ -1,8 +1,8 @@
 module.exports = {
   title: "Glasswall Infosec and IT",
   tagline: "",
-  url: "https://filetrust.github.io",
-  baseUrl: "/glasswall-it-infosec-site/",
+  url: "http://3.10.88.253/",
+  baseUrl: "/",
   favicon: "img/favicon.ico",
   organizationName: "filetrust", // Usually your GitHub org/user name.
   projectName: "glasswall-it-infosec-site", // Usually your repo name.
@@ -16,7 +16,7 @@ module.exports = {
       },
       items: [
         {
-          to: "docs/products/rebuild-api/product-overview",
+          to: "docs/AboutUs/InfosecTeam/TheTeam",
           activeBasePath: "docs",
           label: "Documentation",
           position: "left",
@@ -41,7 +41,8 @@ module.exports = {
           items: [
             {
               label: "Getting Started",
-              to: "docs/products/cloud-sdk/rebuild/rebuild-quickstart",
+              to: "docs/products/rebuild-api/quickstart-rebuild",
+
             },
           ],
         },

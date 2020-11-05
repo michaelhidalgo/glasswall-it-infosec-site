@@ -4,15 +4,11 @@ module.exports = {
 			[
 				{
 					"IT Team": [
-						"products/rebuild-api/product-overview",
-						"products/rebuild-api/cloud-sdk-supported-types",
-						
-					
+						"AboutUs/ItTeam/TheTeam",
 					],
 				
 					"InfoSec Team": [
-						"products/rebuild-api/product-overview",
-						"products/rebuild-api/cloud-sdk-supported-types",
+						"AboutUs/InfoSecTeam/TheTeam",
 					],
 
 					"Careers": [
@@ -39,10 +35,32 @@ module.exports = {
 			[
 				{
 					"Projects": [
-						"how-tos/ci-cd-pipeline"
+						"Projects/InfoSecTeam/IncidentManagement"
 					]
 				}
 			],
+
+			"Security Awareness": 
+			[
+			{
+				"C#": [
+     			"security_awareness/languages/Csharp/ldap_injection",
+				"security_awareness/languages/Csharp/command_injection",
+				"security_awareness/languages/Csharp/xpath_injection",
+				"security_awareness/languages/Csharp/hardcoded_keys",
+				"security_awareness/languages/Csharp/insecure_randomness",
+				"security_awareness/languages/Csharp/open_redirect"
+				
+				],
+				
+    			"C": [
+     			 "security_awareness/languages/C/BufferOverflow",
+     			 "security_awareness/languages/C/uaf"
+    			],
+
+    		}
+				
+			]
 		
 	},
 };

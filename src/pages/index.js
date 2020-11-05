@@ -10,7 +10,7 @@ const features = [
   {
     title: <>Glasswall IT and InfoSec Team</>,
     imageUrl: "img/product-illustration-01.png",
-    imageLinkTo: "docs/products/rebuild-api/product-overview",
+    imageLinkTo: "docs/how-tos/ci-cd-pipeline",
     description: (
       <>
         About our versatile and innovative team, upcoming recruitments and how to contact us.
@@ -20,7 +20,7 @@ const features = [
   {
     title: <>IT Team</>,
     imageUrl: "img/documentation-illustration-02.png",
-    imageLinkTo: "docs/product-descriptions/product-overview",
+    imageLinkTo: "/docs/AboutUs/ItTeam/TheTeam",
     description: (
       <>
         Check out our IT projects and activities.
@@ -30,13 +30,15 @@ const features = [
   {
     title: <>InfoSec Team</>,
     imageUrl: "img/use-cases-illustration-03.png",
-    imageLinkTo: "docs/use-cases/overview",
+    imageLinkTo: "docs/AboutUs/InfoSecTeam/TheTeam",
     description: (
       <>
         Check out our InfoSec projects and activities.
       </>
     ),
   },
+  
+
 ];
 
 function Feature({ imageUrl, title, description, imageLinkTo }) {
@@ -76,7 +78,7 @@ function Home() {
                 "button button--outline button--secondary button--lg",
                 styles.getStarted
               )}
-              to={useBaseUrl("docs/products/cloud-sdk/rebuild/rebuild-quickstart")}
+              to={useBaseUrl("docs/products/rebuild-api/quickstart-rebuild")}
             >
               Get Started
             </Link>
