@@ -2,7 +2,7 @@ module.exports = {
   title: "Glasswall Infosec and IT",
   tagline: "",
   url: "http://it-infosec.glasswallsolutions.com/",
-  baseUrl: "/",
+  baseUrl: "/glasswall-it-infosec-site/",
   favicon: "img/favicon.ico",
   organizationName: "filetrust", // Usually your GitHub org/user name.
   projectName: "glasswall-it-infosec-site", // Usually your repo name.
