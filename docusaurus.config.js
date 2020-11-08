@@ -1,7 +1,7 @@
 module.exports = {
   title: "Glasswall Infosec and IT",
   tagline: "",
-  url: "http://it-infosec.glasswallsolutions.com/",
+  url: "http://3.10.88.253/",
   baseUrl: "/",
   favicon: "img/favicon.ico",
   organizationName: "filetrust", // Usually your GitHub org/user name.

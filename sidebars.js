@@ -49,13 +49,25 @@ module.exports = {
 				"security_awareness/languages/Csharp/xpath_injection",
 				"security_awareness/languages/Csharp/hardcoded_keys",
 				"security_awareness/languages/Csharp/insecure_randomness",
-				"security_awareness/languages/Csharp/open_redirect"
+				"security_awareness/languages/Csharp/open_redirect",
+				"security_awareness/languages/Csharp/xss",
+				"security_awareness/languages/Csharp/sqli",
+				"security_awareness/languages/Csharp/EmptyTryCatch",
+
 				
 				],
 				
     			"C": [
      			 "security_awareness/languages/C/BufferOverflow",
-     			 "security_awareness/languages/C/uaf"
+     			 "security_awareness/languages/C/uaf",
+     			 "security_awareness/languages/C/MemoryLeak",
+     			 "security_awareness/languages/C/DoubleFree",
+     			 "security_awareness/languages/C/IntegerOverflow",
+     			 "security_awareness/languages/C/OutOfBounds",
+
+     			
+     			 
+
     			],
 
     		}
