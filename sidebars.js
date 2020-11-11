@@ -26,7 +26,7 @@ module.exports = {
 			[
 				{
 					"Projects": [
-						"how-tos/ci-cd-pipeline"
+						"Projects/ItTeam/OfficeLiberationProject"
 					]
 				}
 			],
