@@ -22,7 +22,7 @@ module.exports = {
           position: "left",
         },
         {
-          href: "https://medium.com/glasswall-engineering",
+          href: "https://medium.com/glasswall-engineering/tagged/infosecit",
           label: "Blog",
           position: "left",
         },

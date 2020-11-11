@@ -65,10 +65,19 @@ module.exports = {
      			 "security_awareness/languages/C/IntegerOverflow",
      			 "security_awareness/languages/C/OutOfBounds",
 
-     			
-     			 
-
     			],
+
+    			"Python": [
+    			"security_awareness/languages/Python/InjectionAttacks",
+    			"security_awareness/languages/Python/DynamicCodeExecution",
+    			"security_awareness/languages/Python/RequestRedirect",
+    			"security_awareness/languages/Python/RequestRedirect",
+    			"security_awareness/languages/Python/WeakEncryption",
+    			"security_awareness/languages/Python/XXE",
+
+    			
+
+    			]
 
     		}
 				
