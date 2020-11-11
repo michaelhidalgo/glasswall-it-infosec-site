@@ -71,7 +71,7 @@ module.exports = {
     			"security_awareness/languages/Python/InjectionAttacks",
     			"security_awareness/languages/Python/DynamicCodeExecution",
     			"security_awareness/languages/Python/RequestRedirect",
-    			"security_awareness/languages/Python/RequestRedirect",
+    			"security_awareness/languages/Python/Deserialization",
     			"security_awareness/languages/Python/WeakEncryption",
     			"security_awareness/languages/Python/XXE",
 
