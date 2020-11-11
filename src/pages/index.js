@@ -8,12 +8,12 @@ import styles from "./styles.module.css";
 
 const features = [
   {
-    title: <>Glasswall IT and InfoSec Team</>,
+    title: <>Security Awareness</>,
     imageUrl: "img/product-illustration-01.png",
-    imageLinkTo: "docs/how-tos/ci-cd-pipeline",
+    imageLinkTo: "docs/security_awareness/languages/C/BufferOverflow",
     description: (
       <>
-        About our versatile and innovative team, upcoming recruitments and how to contact us.
+        Check out our security awareness!
       </>
     ),
   },
