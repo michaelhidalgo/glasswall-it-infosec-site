@@ -77,7 +77,13 @@ module.exports = {
 
     			
 
-    			]
+				],
+
+				"OWASP Top 10": [
+				"security_awareness/owasp/sqli",
+				]
+				
+
 
     		}
 				
