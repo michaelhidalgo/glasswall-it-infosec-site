@@ -3,7 +3,8 @@ title: SQL Injection
 sidebar_label: SQL Injection
 ---
 
-
+![DROP TABLE](sqljoke.jpg)
+credit: https://xkcd.com/
 
 This notebook takes you through some of the techniques used to take advantage of SQLI vulnerabilities. You can either review the code blocks and their outputs, or you can follow along by running each code block. You will need access to SQL Server that has the OLTP DB WideWorldImporters which can be download for free from [Microsoft.](https://docs.microsoft.com/en-us/sql/samples/wide-world-importers-oltp-install-configure?view=sql-server-ver15)
 
