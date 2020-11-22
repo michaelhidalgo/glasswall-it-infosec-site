@@ -39,27 +39,33 @@ Prefer using fgets (and dynamically allocated memory!):
 ```c
 #include <stdio.h>
 #include <stdlib.h>
-#define LENGTH 8
-int main () {
-    char* username, *nlptr;
+​
+int main (void) 
+{
+
+
+    char *username, *p;
     int allow = 0;
  
-    username = malloc(LENGTH * sizeof(*username));
+    username = malloc(LENGTH);   
     if (!username)
         return EXIT_FAILURE;
+​
     printf("Enter your username, please: ");
-    fgets(username,LENGTH, stdin);
-    // fgets stops after LENGTH-1 characters or at a newline character, which ever comes first.
-    // but it considers \n a valid character, so you might want to remove it:
-    nlptr = strchr(username, '\n');
-    if (nlptr) *nlptr = '\0';
- 
-    if (grantAccess(username)) {
+    fgets(username, sizeof username, stdin);   
+​
+
+
+
+
+    if ((p = strchr(username, '\n')) != NULL)
+        *p = '\0';
+​
+    if (grantAccess(username))
         allow = 1;
-    }
-    if (allow != 0) {
+​
+    if (allow != 0)
         priviledgedAction();
-    }
  
     free(username);
  
@@ -78,22 +84,28 @@ strcpy(str1,str2);
 The best way to mitigate this issue is to use strlcpy if it is readily available (which is only the case on BSD systems). However, it is very simple to define it yourself, as shown below:
 
 ```c
+
 #include <stdio.h>
-#ifndef strlcpy
-#define strlcpy(dst,src,sz) snprintf((dst), (sz), "%s", (src))
-#endif
+#include <string.h>
  
 enum { BUFFER_SIZE = 10 };
  
 int main() {
+​
     char dst[BUFFER_SIZE];
     char src[] = "abcdefghijk";
  
-    int buffer_length = strlcpy(dst, src, BUFFER_SIZE);
+    *dst = '\0';
+    strncat(dst, src, BUFFER_SIZE-1);
  
-    if (buffer_length >= BUFFER_SIZE) {
-        printf("String too long: %d (%d expected)\n",
-                buffer_length, BUFFER_SIZE-1);
+    /* simply compare the length of the target string
+     * against the destination buffer size (-1 for null
+     * character) to check if it fitted
+     */
+    if (strlen(src) >= BUFFER_SIZE-1) {
+        printf("String too long: %lu (%d expected)\n",
+                (unsigned long)strlen(src),
+                BUFFER_SIZE-1);
     }
  
     printf("String copied: %s\n", dst);

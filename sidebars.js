@@ -75,15 +75,18 @@ module.exports = {
     			"security_awareness/languages/Python/WeakEncryption",
     			"security_awareness/languages/Python/XXE",
 
-    			
+    			],
 
-				],
-
-				"OWASP Top 10": [
-				"security_awareness/owasp/sqli",
-				]
-				
-
+    			'Type Script':[
+    			"security_awareness/languages/TypeScript/BrokenAuthentication",
+    			"security_awareness/languages/TypeScript/ImproperCertificateValidation",
+    			"security_awareness/languages/TypeScript/CSRF",
+    			"security_awareness/languages/TypeScript/CrossOrigin",
+    			"security_awareness/languages/TypeScript/JWTSensitiveDataExposure",
+    			"security_awareness/languages/TypeScript/UnrestrictedUploadofFile",
+    			"security_awareness/languages/TypeScript/WeakSSLTLSProtocols",
+    			"security_awareness/languages/TypeScript/xml"
+    			]
 
     		}
 				
