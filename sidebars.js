@@ -77,7 +77,7 @@ module.exports = {
 
     			],
 
-    			'Type Script':[
+    			'TypeScript':[
     			"security_awareness/languages/TypeScript/BrokenAuthentication",
     			"security_awareness/languages/TypeScript/ImproperCertificateValidation",
     			"security_awareness/languages/TypeScript/CSRF",
