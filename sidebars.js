@@ -43,6 +43,10 @@ module.exports = {
 			"Security Awareness": 
 			[
 			{
+				"OWASP": [
+							"security_awareness/owasp/sqli",
+				],
+
 				"C#": [
      			"security_awareness/languages/Csharp/ldap_injection",
 				"security_awareness/languages/Csharp/command_injection",
