@@ -54,18 +54,9 @@ int main (void)
     printf("Enter your username, please: ");
     fgets(username, sizeof username, stdin);   
 ​
-
-
-
-
-    if ((p = strchr(username, '\n')) != NULL)
-        *p = '\0';
-​
+ 
     if (grantAccess(username))
-        allow = 1;
-​
-    if (allow != 0)
-        priviledgedAction();
+        privilegedAction();
  
     free(username);
  
@@ -86,26 +77,21 @@ The best way to mitigate this issue is to use strlcpy if it is readily available
 ```c
 
 #include <stdio.h>
-#include <string.h>
+#ifndef strlcpy
+#define strlcpy(dst,src,sz) snprintf((dst), (sz), "%s", (src))
+#endif
  
 enum { BUFFER_SIZE = 10 };
  
 int main() {
-​
     char dst[BUFFER_SIZE];
     char src[] = "abcdefghijk";
  
-    *dst = '\0';
-    strncat(dst, src, BUFFER_SIZE-1);
+    int buffer_length = strlcpy(dst, src, BUFFER_SIZE);
  
-    /* simply compare the length of the target string
-     * against the destination buffer size (-1 for null
-     * character) to check if it fitted
-     */
-    if (strlen(src) >= BUFFER_SIZE-1) {
-        printf("String too long: %lu (%d expected)\n",
-                (unsigned long)strlen(src),
-                BUFFER_SIZE-1);
+    if (buffer_length >= BUFFER_SIZE) {
+        printf("String too long: %d (%d expected)\n",
+                buffer_length, BUFFER_SIZE-1);
     }
  
     printf("String copied: %s\n", dst);
