@@ -45,6 +45,7 @@ module.exports = {
 			{
 				"OWASP": [
 							"security_awareness/owasp/sqli",
+							"security_awareness/owasp/CommonSecurityPitfalls",
 				],
 
 				"C#": [
