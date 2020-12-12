@@ -8,6 +8,14 @@ module.exports = {
   projectName: "glasswall-it-infosec-site", // Usually your repo name.
   onBrokenLinks: 'log',
   themeConfig: {
+
+    algolia: {
+      apiKey: 'fbc23ee4f0bc1dbacada9e0350c1629f',
+      indexName: 'glasswallsolutions',
+
+      
+    },
+
     navbar: {
       title: "Glasswall IT and Infosec",
       logo: {
@@ -79,6 +87,7 @@ module.exports = {
       trackingID: 'UA-165717322-1'
     }
   },
+ 
   presets: [
     [
       "@docusaurus/preset-classic",
