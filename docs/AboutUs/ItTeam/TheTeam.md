@@ -13,8 +13,13 @@ In Glasswall our IT team is made out of remarkable and skilled individuals who c
 
 ![AboutImgs](Tom.png "IT Squad Leader")
 
-The IT Squad Leader and Senior System admin joined Glasswall as a Technical Support Engineer just over a year ago. Tom brings with him years of experience & IT knowledge working with many different companies ranging from 10 users to companies with over 2000 users. With his pro-activity, resourcefulness and hard work quickly he demonstrated his leadership potential and earned the title of Squad Leader. Tom has a wide range of knowledge and is always quick to learn the new and up and coming technologies to implement into the Glasswall Tech stack.
+The IT Squad Leader and Senior System Administrator joined Glasswall as a Technical Support Engineer just over a year ago. Tom brings with him years of experience & IT knowledge working with many different companies ranging from 10 users to companies with over 2000 users. With his pro-activity, resourcefulness and hard work quickly he demonstrated his leadership potential and earned the title of Squad Leader. Tom has a wide range of knowledge and is always quick to learn the new and up and coming technologies to implement into the Glasswall Tech stack.
 
+**George Williams - System Administrator**
+
+![AboutImgs](George.png "George")
+
+George joined Glasswall in November 2020. He is the first point of contact for all Techincal requests and issues that come into Glasswall's IT helpdesk. George has also been a key part in the Office Liberation project at Glasswall to ensure we are a fully online company and not tied to any geographical location.
 
 **Alona Reyes - IT Support, Project Management and System Admin**
 
