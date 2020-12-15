@@ -68,7 +68,7 @@ function Home() {
     
     <Layout
       title={`Glasswall`}
-      description="The online knowledge base for the Glasswall SDK."
+      description="Online Documentation of the Glasswall IT and InfoSec Team"
     >
       <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap" rel="stylesheet" />
       <header className={classnames("hero hero--primary", styles.heroBanner)}>
