@@ -7,5 +7,5 @@
   <Image width="16" height="16" type="image/x-icon">http://it-infosec.glasswallsolutions.com/img/favicon.ico</Image>
   <Url type="text/html" method="get" template="http://it-infosec.glasswallsolutions.com//search?q={searchTerms}"/>
   <Url type="application/opensearchdescription+xml" rel="self" template="http://it-infosec.glasswallsolutions.com//opensearch.xml" />
-  <moz:SearchForm>http://it-infosec.glasswallsolutions.com/</moz:SearchForm>
+  <moz:SearchForm>http://it-infosec.glasswallsolutions.com//</moz:SearchForm>
 </OpenSearchDescription>
