@@ -7,6 +7,7 @@ sidebar_label: Common Security Pitfalls
 We have our Glasswall Security Policies. If you are an employee, please read them and know them. Employee or not, we are open to feedback. They are open source and feel free to reach out to us or create a pull request. The policies are [here](https://github.com/filetrust/Glasswall-Security-Policies "Glasswall Security Policies") 
 
 ## Hardcoding Secrets
+:dart: :heavy_exclamation_mark:[Watch here an informative video from Infosec team about hardcoding secrets](https://github.com/k8-proxy/Glasswall-InfoSec-Security-Training-and-Compliance)
 
 The use of hardcoded secrets, including but not limited to API Keys, credentials, passwords, tokens, digital certificates, third-party secrets, has many negative implications for an organization. Threat actors periodically scan open repositories to look for those secrets to later use them to compromise an organization.
 
